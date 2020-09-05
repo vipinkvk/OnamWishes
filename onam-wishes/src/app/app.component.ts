@@ -8,8 +8,4 @@ import { environment } from '../environments/environment';
 })
 export class AppComponent {
   title = 'onam-wishes';
-  constructor()
-  {
-    alert(environment.production);
-  }
 }
